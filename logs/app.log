@@ -1,0 +1,81 @@
+INFO:multiagentresearchsystem.main:{"event": "Multi-Agent Research System - started", "level": "info", "timestamp": "2026-06-03T21:55:21.564429Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Multi-Agent Research System - completed", "level": "info", "timestamp": "2026-06-03T21:55:44.966569Z"}
+INFO:multiagentresearchsystem.main:{"event": "Multi-Agent Research System - started", "level": "info", "timestamp": "2026-06-03T22:10:27.390411Z"}
+INFO:multiagentresearchsystem.main:{"event": "Supervisor Agent- started", "level": "info", "timestamp": "2026-06-03T22:10:27.411422Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Supervisor Agent- completed with 3 queries: ['How will AI agents automate coding tasks in software development by 2026?', 'What are the potential ethical implications of using AI agents in software development processes in 2026?', 'How will the collaboration between human developers and AI agents evolve in software development teams by 2026?']", "level": "info", "timestamp": "2026-06-03T22:10:29.300669Z"}
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- started", "level": "info", "timestamp": "2026-06-03T22:10:29.301796Z"}
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- started", "level": "info", "timestamp": "2026-06-03T22:10:29.304479Z"}
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- started", "level": "info", "timestamp": "2026-06-03T22:10:29.307383Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- completed with 3 findings for query: 'What are the potential ethical implications of using AI agents in software development processes in 2026?'", "level": "info", "timestamp": "2026-06-03T22:10:33.099353Z"}
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- completed with 3 findings for query: 'How will AI agents automate coding tasks in software development by 2026?'", "level": "info", "timestamp": "2026-06-03T22:10:33.102820Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- completed with 3 findings for query: 'How will the collaboration between human developers and AI agents evolve in software development teams by 2026?'", "level": "info", "timestamp": "2026-06-03T22:10:33.364043Z"}
+INFO:multiagentresearchsystem.main:{"event": "Analyst Agent- started", "level": "info", "timestamp": "2026-06-03T22:10:33.365349Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Analyst Agent- completed", "level": "info", "timestamp": "2026-06-03T22:10:41.284190Z"}
+INFO:multiagentresearchsystem.main:{"event": "Report Writer Agent- started", "level": "info", "timestamp": "2026-06-03T22:10:41.285438Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Report Writer Agent- completed", "level": "info", "timestamp": "2026-06-03T22:10:49.604133Z"}
+INFO:multiagentresearchsystem.main:{"event": "Quality Checker Agent- started", "level": "info", "timestamp": "2026-06-03T22:10:49.605649Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Quality Checker Agent- completed with score 0.9 and feedback: The report is comprehensive, covering key aspects of the impact of AI agents on software development, including both benefits and ethical concerns. It is well-structured and easy to understand, with clear sections and logical flow. The recommendations are specific and actionable, providing clear steps for stakeholders to take. Overall, it meets high-quality standards.", "level": "info", "timestamp": "2026-06-03T22:10:51.619632Z"}
+INFO:multiagentresearchsystem.main:{"event": "Multi-Agent Research System - completed", "level": "info", "timestamp": "2026-06-03T22:10:51.625114Z"}
+INFO:multiagentresearchsystem.main:{"event": "Multi-Agent Research System - started", "level": "info", "timestamp": "2026-06-03T22:33:43.758545Z"}
+INFO:multiagentresearchsystem.main:{"topic": "Prospects to design  faulty tolerant quantum computers till 2030", "event": "Executing research lifecycle", "level": "info", "timestamp": "2026-06-03T22:35:52.672658Z"}
+INFO:multiagentresearchsystem.main:{"event": "Supervisor Agent- started", "level": "info", "timestamp": "2026-06-03T22:35:52.678413Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Supervisor Agent- completed with 3 queries: ['What are the current advancements in fault-tolerant quantum computing technologies as of 2023?', 'What are the major challenges and limitations in achieving fault tolerance in quantum computers by 2030?', 'What are the potential applications and implications of fault-tolerant quantum computers in various industries by 2030?']", "level": "info", "timestamp": "2026-06-03T22:35:55.389878Z"}
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- started", "level": "info", "timestamp": "2026-06-03T22:35:55.391051Z"}
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- started", "level": "info", "timestamp": "2026-06-03T22:35:55.393782Z"}
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- started", "level": "info", "timestamp": "2026-06-03T22:35:55.396443Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- completed with 3 findings for query: 'What are the current advancements in fault-tolerant quantum computing technologies as of 2023?'", "level": "info", "timestamp": "2026-06-03T22:35:58.280286Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- completed with 3 findings for query: 'What are the major challenges and limitations in achieving fault tolerance in quantum computers by 2030?'", "level": "info", "timestamp": "2026-06-03T22:35:58.541464Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- completed with 3 findings for query: 'What are the potential applications and implications of fault-tolerant quantum computers in various industries by 2030?'", "level": "info", "timestamp": "2026-06-03T22:35:58.826810Z"}
+INFO:multiagentresearchsystem.main:{"event": "Analyst Agent- started", "level": "info", "timestamp": "2026-06-03T22:35:58.827415Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Analyst Agent- completed", "level": "info", "timestamp": "2026-06-03T22:36:05.545739Z"}
+INFO:multiagentresearchsystem.main:{"event": "Report Writer Agent- started", "level": "info", "timestamp": "2026-06-03T22:36:05.546866Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Report Writer Agent- completed", "level": "info", "timestamp": "2026-06-03T22:36:14.419123Z"}
+INFO:multiagentresearchsystem.main:{"event": "Quality Checker Agent- started", "level": "info", "timestamp": "2026-06-03T22:36:14.420433Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Quality Checker Agent- completed with score 0.8 and feedback: The report is comprehensive, covering key advancements and challenges in the field of fault-tolerant quantum computing. It is well-structured and easy to understand, with clear sections that guide the reader through the findings and analysis. The recommendations are specific and actionable, providing clear directions for future research and collaboration. Overall, it meets high-quality standards, but could benefit from more detailed examples or case studies to further illustrate the points made.", "level": "info", "timestamp": "2026-06-03T22:36:16.677495Z"}
+INFO:multiagentresearchsystem.main:{"event": "Multi-Agent Research System - completed", "level": "info", "timestamp": "2026-06-03T22:36:16.681795Z"}
+INFO:multiagentresearchsystem.main:{"event": "Multi-Agent Research System - started", "level": "info", "timestamp": "2026-06-03T22:37:00.182706Z"}
+INFO:multiagentresearchsystem.main:{"event": "Multi-Agent Research System - started", "level": "info", "timestamp": "2026-06-03T23:30:57.298947Z"}
+INFO:multiagentresearchsystem.main:{"topic": "Is that possible that quantum supremacy will be achieved till 2030?", "event": "Executing research lifecycle", "level": "info", "timestamp": "2026-06-03T23:31:43.028370Z"}
+INFO:multiagentresearchsystem.main:{"event": "Supervisor Agent- started", "level": "info", "timestamp": "2026-06-03T23:31:43.039995Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Supervisor Agent- completed with 3 queries: ['What are the current advancements in quantum computing that suggest quantum supremacy could be achieved by 2030?', 'What are the major challenges and limitations facing quantum computing that could prevent the achievement of quantum supremacy by 2030?', 'How do experts in the field of quantum computing define quantum supremacy, and what timelines do they propose for its achievement?']", "level": "info", "timestamp": "2026-06-03T23:31:46.117641Z"}
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- started", "level": "info", "timestamp": "2026-06-03T23:31:46.118757Z"}
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- started", "level": "info", "timestamp": "2026-06-03T23:31:46.121561Z"}
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- started", "level": "info", "timestamp": "2026-06-03T23:31:46.124314Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- completed with 3 findings for query: 'What are the major challenges and limitations facing quantum computing that could prevent the achievement of quantum supremacy by 2030?'", "level": "info", "timestamp": "2026-06-03T23:31:49.432885Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- completed with 3 findings for query: 'How do experts in the field of quantum computing define quantum supremacy, and what timelines do they propose for its achievement?'", "level": "info", "timestamp": "2026-06-03T23:31:49.819639Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Search Agent- completed with 3 findings for query: 'What are the current advancements in quantum computing that suggest quantum supremacy could be achieved by 2030?'", "level": "info", "timestamp": "2026-06-03T23:31:49.850224Z"}
+INFO:multiagentresearchsystem.main:{"event": "Analyst Agent- started", "level": "info", "timestamp": "2026-06-03T23:31:49.851079Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Analyst Agent- completed", "level": "info", "timestamp": "2026-06-03T23:31:54.679679Z"}
+INFO:multiagentresearchsystem.main:{"event": "Report Writer Agent- started", "level": "info", "timestamp": "2026-06-03T23:31:54.681201Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Report Writer Agent- completed", "level": "info", "timestamp": "2026-06-03T23:32:05.912829Z"}
+INFO:multiagentresearchsystem.main:{"event": "Quality Checker Agent- started", "level": "info", "timestamp": "2026-06-03T23:32:05.913983Z"}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:multiagentresearchsystem.main:{"event": "Quality Checker Agent- completed with score 0.8 and feedback: The report provides a comprehensive overview of the current state of quantum computing and the challenges that may affect the achievement of quantum supremacy by 2030. It is well-structured and clearly written, making it easy to understand. The recommendations are specific and actionable, addressing key areas for improvement. Overall, the report meets quality standards effectively.", "level": "info", "timestamp": "2026-06-03T23:32:07.948781Z"}
+INFO:multiagentresearchsystem.main:{"event": "Multi-Agent Research System - completed", "level": "info", "timestamp": "2026-06-03T23:32:07.954632Z"}
