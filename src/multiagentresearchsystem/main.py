@@ -2,6 +2,7 @@ import os
 
 from dotenv import load_dotenv
 from langchain.messages import AIMessage
+from langsmith import traceable
 from .state_schema import ResearchState, SearchTaskState, llm, creative_llm
 from .research_system import create_research_system
 from .structlogger import logger
@@ -12,6 +13,7 @@ load_dotenv()
 #    response = llm.invoke("What is the capital of France?")
 #    print("LLM Response:", response.content)
 
+@traceable(name="Multi Agent Research", tags=["production", "research"])
 def run_app():
     print("Running Multi-Agent Research System...")
     logger.info("Multi-Agent Research System - started")
@@ -66,6 +68,8 @@ def run_app():
     print("=" * 60)
     print(result["report"])    
     logger.info("Multi-Agent Research System - completed")
+
+    return result["report"]
 
 if __name__ == "__main__":
     run_app()
